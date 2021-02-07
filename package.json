@@ -4,6 +4,8 @@
   "description": "React-Redux course for Treehouse",
   "main": "./index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "prestart": "npm run lint",
     "start": "webpack serve --progress --inline --hot",
     "lint": "eslint ./src/**/*.{js, jsx, ts, tsx} --fix",
@@ -17,7 +19,7 @@
   ],
   "author": "Beau Palmquist",
   "license": "MIT",
-  "homepage": "https://AaronElijah.github.io/course-directory",
+  "homepage": "https://AaronElijah.github.io/react-redux-scoreboard",
   "dependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.25",
