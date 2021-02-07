@@ -19,7 +19,7 @@
   ],
   "author": "Beau Palmquist",
   "license": "MIT",
-  "homepage": "https://AaronElijah.github.io/react-redux-scoreboard",
+  "homepage": "https://aaronelijah.github.io/react-redux-scoreboard",
   "dependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.25",
